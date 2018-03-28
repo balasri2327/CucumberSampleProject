@@ -34,9 +34,9 @@ public void the_user_enter_firstname_and_lastname() throws Throwable {
 @Then("^The user verify the entered text in firstname and lastname field$")
 public void the_user_verify_the_entered_text_in_firstname_and_lastname_field() throws Throwable {
     // Write code here that turns the phrase above into concrete actions
-    Assert.assertEquals("Bala", firstName.getAttribute("type"));
-    Assert.assertEquals("sri", lastName.getAttribute("type"));
-    Assert.assertEquals("Bala", firstName.getText());
+    Assert.assertEquals("Bala", firstName.getAttribute("value"));
+    Assert.assertEquals("sri", lastName.getAttribute("value"));
+  //  Assert.assertEquals("Bala", firstName.getText());
 
 }
 
