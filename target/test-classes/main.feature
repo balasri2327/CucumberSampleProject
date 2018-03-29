@@ -16,15 +16,15 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
-
-@tag
+@demo
 Feature: Title of your feature
   I want to use this template for my feature file
 
   @tag1
   Scenario: Checking TextBoxes
     Given User is in Register page
-    When User enter the firstname and lastname and phonenumber and username and email and about yourself and password and cofirmpassword
-    Then I validate the entered firstname and lastname and phonenumber and username and email and about yourself and password and cofirmpassword
-
- 
+    When User enter the firstname and lastname
+      | fName | lName |
+      | Bala  | Sri   |
+      | Prem  | Sir   |
+    Then The user validate the entered firstname and lastname

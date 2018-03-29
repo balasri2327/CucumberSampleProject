@@ -16,11 +16,11 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
-@tag
+@demo2
 Feature: I want to use this template for my feature file
 
   @tag2
-  Scenario Outline: Title of your scenario outline
+  Scenario Outline: Login Scenario
     Given I want to write a step with "<value>"
     When I check for the "<value>"
     Then I verify the "<value>"
@@ -28,5 +28,4 @@ Feature: I want to use this template for my feature file
     Examples: 
      |value|
      |Selenium|
-     |Cucumber|
-     |TestNG|
+     
